@@ -19,15 +19,16 @@ body {
 
 /* Title styling with improved gradient and depth */
 .title {
+  background: linear-gradient(90deg, #c84c30, #8B2C1E);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-family: 'Poppins', sans-serif;
   font-size: 4.8rem;
   font-weight: 900;
   margin-top: 1rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(200, 76, 48, 1) 50%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
   margin-bottom: 2rem;
+  text-shadow: none;
+  position: relative;
 }
 
 
