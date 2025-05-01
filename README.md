@@ -33,31 +33,7 @@ Whisk It Up is a fully functional AI-powered recipe generator web app. Just ente
 
 ## 📂 Project Structure
 
-project-root/
-├── client/                 # Frontend React application
-│   ├── node_modules/
-│   ├── package.json
-│   └── package-lock.json
-│
-├── recipe-gen/             # Main application
-│   ├── node_modules/
-│   ├── public/
-│   ├── src/                # Source code
-│   │   ├── App.js          # Main React component
-│   │   ├── App.css         # Styling
-│   │   ├── index.js        # Entry point
-│   │   ├── index.css       # Global styles
-│   │   ├── logo.svg        # Logo
-│   │   └── reportWebVitals.js
-│   ├── package.json
-│   └── README.md
-│
-├── server/                 # Backend Express server
-│   ├── node_modules/
-│   ├── server.js           # Server entry point
-│   ├── package.json
-│   └── package-lock.json
-└── node_modules/
+WhiskItUp/ ├── client/ # Frontend React app │ └── recipe-gen/ # Main React application │ ├── public/ # Static files (HTML, icons, etc.) │ ├── src/ # Source code │ │ ├── App.js # Main React component │ │ ├── App.css # Styling │ │ ├── index.js # Entry point │ │ ├── index.css # Global styles │ │ ├── logo.svg # Logo │ │ └── ... # Other component files │ ├── package.json # React app dependencies and scripts │ └── README.md │ ├── server/ # Backend Express server │ ├── server.js # Server entry point │ └── package.json # Backend dependencies │ ├── .env # Environment variables (ignored by Git) └── README.md # Project documentation
 
 ## Future Improvements
 - Add download/share recipe options
@@ -67,5 +43,5 @@ project-root/
 
 ## 👥 Contact
 Feel free to reach out to give any feedback, suggestions, or improvements.
+
 💌 Email: [shanzayc@outlook.com](mailto:shanzayc@outlook.com)
-💼 [LinkedIn](https://linkedin.com/in/shanzaychaudhry)
