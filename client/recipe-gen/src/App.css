@@ -27,14 +27,13 @@ body {
   font-weight: 900;
   margin-top: 1rem;
   margin-bottom: 2rem;
-  text-shadow: none;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
   position: relative;
 }
 
 
 /* Create mortar icon effect after the title */
 .title::after {
-  content: "👨‍🍳";
   position: absolute;
   right: -60px;
   top: 5px;
@@ -46,26 +45,30 @@ body {
 /* Layout styling */
 .flex-row {
   display: flex;
-  align-items: stretch; /* ensures both children match height */
-
+  align-items: stretch; /* Ensures equal height */
   justify-content: center;
   gap: 2.5rem;
   margin-top: 2rem;
   flex-wrap: wrap;
+  align-content: stretch; /* Add this */
 }
 
-/* Card styling with improved depth and hover effect */
 .card {
   background: white;
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
-  
   overflow-y: auto;
-
   width: 350px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  /* 👇 Added */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
 }
+
 
 .card:hover {
   transform: translateY(-5px);
@@ -145,6 +148,12 @@ button:active {
   box-shadow: 0 2px 4px rgba(200, 76, 48, 0.2);
 }
 
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+}
+
 /* Output styling */
 .output {
   background: #ffffff;
@@ -164,6 +173,8 @@ button:active {
   line-height: 1.6;
   position: relative;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  flex:1;
 }
 
 .output:hover {
