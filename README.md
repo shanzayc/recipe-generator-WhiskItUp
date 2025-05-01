@@ -2,7 +2,7 @@
 
 Whisk It Up is a fully functional AI-powered recipe generator web app. Just enter your ingredients, cooking time, cuisine type, and difficulty level — and it will generate a delicious recipe live, streamed from an AI model.
 
-🌐 [Live Demo on Netlify](https://your-netlify-site.netlify.app)  
+🌐 [Live Demo on Netlify](https://whiskitup.netlify.app/)  
 🔗 [Backend on Render](https://recipe-generator-backend-7oi4.onrender.com)
 
 ---
@@ -12,7 +12,6 @@ Whisk It Up is a fully functional AI-powered recipe generator web app. Just ente
 - 🍲 Dynamic recipe generation from ingredients and preferences
 - ⚡ Live streaming of AI output using Server-Sent Events (SSE)
 - 🧠 Markdown rendering for easy-to-read recipe instructions
-- 🎨 Clean, mobile-friendly UI
 - 🔒 Secure API key usage via environment variables
 
 ---
@@ -31,4 +30,12 @@ Whisk It Up is a fully functional AI-powered recipe generator web app. Just ente
 - Server-Sent Events (SSE) for live response streaming
 - `.env` for storing secrets (API key)
 - Deployed on **Render**
+
+## Future Improvements
+- Add download/share recipe options
+- User login to save favorite recipes
+- Use images for recipe steps
+
+
+
 
