@@ -38,6 +38,7 @@ const RecipeCard = ({ onSubmit }) => {
           <option>Lunch</option>
           <option>Dinner</option>
           <option>Snack</option>
+          <option>Dessert</option>
         </select>
       </div>
       <div className="input-group">
