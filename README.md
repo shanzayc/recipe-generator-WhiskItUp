@@ -33,7 +33,25 @@ Whisk It Up is a fully functional AI-powered recipe generator web app. Just ente
 
 ## 📂 Project Structure
 
-WhiskItUp/ ├── client/ # Frontend React app │ └── recipe-gen/ # Main React application │ ├── public/ # Static files (HTML, icons, etc.) │ ├── src/ # Source code │ │ ├── App.js # Main React component │ │ ├── App.css # Styling │ │ ├── index.js # Entry point │ │ ├── index.css # Global styles │ │ ├── logo.svg # Logo │ │ └── ... # Other component files │ ├── package.json # React app dependencies and scripts │ └── README.md │ ├── server/ # Backend Express server │ ├── server.js # Server entry point │ └── package.json # Backend dependencies │ ├── .env # Environment variables (ignored by Git) └── README.md # Project documentation
+WhiskItUp/ 
+├── client/ # Frontend React app 
+│ └── recipe-gen/ # Main React application 
+│ ├── public/ # Static files (HTML, icons, etc.) 
+│ ├── src/ # Source code 
+│ │ ├── App.js # Main React component 
+│ │ ├── App.css # Styling 
+│ │ ├── index.js # Entry point 
+│ │ ├── index.css # Global styles 
+│ │ ├── logo.svg # Logo │ 
+│ └── ... # Other component files 
+│ ├── package.json # React app dependencies and scripts 
+│ └── README.md │ 
+├── server/ # Backend Express server 
+│ ├── server.js # Server entry point 
+│ └── package.json # Backend dependencies 
+│ 
+├── .env # Environment variables (ignored by Git) 
+└── README.md # Project documentation
 
 ## Future Improvements
 - Add download/share recipe options
